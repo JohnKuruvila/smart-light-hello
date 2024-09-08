@@ -85,7 +85,7 @@ async function turnOnLightbulb() {
 
   try {
     await axios.post(
-      `http://${HOME_ASSISTANT_IP}api/services/light/turn_on`,
+      `http://${HOME_ASSISTANT_IP}/api/services/light/turn_on`,
       postData,
       {
         headers: postHeaders,
